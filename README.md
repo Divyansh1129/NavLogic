@@ -15,6 +15,14 @@ NavLogic is a full-stack route optimization application that uses **Dijkstra’s
 
 ---
 
+## 🧪 Demo Cities
+
+This project currently supports a limited set of cities for demonstration:
+
+Jhansi, Delhi, Agra, Gwalior, Kanpur, Lucknow, Bhopal, Jaipur, Noida
+
+You can use combinations of these cities (e.g., Jhansi → Delhi, Agra → Jaipur) to test route comparison and shortest path functionality.
+
 ## 🛠️ Tech Stack
 
 ### Frontend
