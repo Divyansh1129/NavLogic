@@ -72,7 +72,6 @@ function App() {
       setPathCoords([]);
       setBestPath(null);
       setAllPaths([]);
-
       setMapKey((prev) => prev + 1);
 
       setTimeout(async () => {
@@ -91,7 +90,6 @@ function App() {
           setPathCoords(coords);
         }
       }, 100);
-
     } catch (err) {
       console.error(err);
       alert("Error finding route");
@@ -115,9 +113,14 @@ function App() {
       <div className="w-1/3 p-6 flex flex-col gap-4">
 
         <div className="bg-white rounded-2xl shadow-xl p-6">
-          <h1 className="text-2xl font-bold mb-4 text-indigo-600">
+          <h1 className="text-2xl font-bold mb-2 text-indigo-600">
             NavLogic
           </h1>
+
+          {/* 🔥 NOTICE ADDED HERE */}
+          <div className="text-sm bg-yellow-100 text-yellow-800 p-2 rounded-lg mb-4 border border-yellow-300">
+            ⚠️ Available only for: Jhansi, Delhi, Agra, Gwalior, Kanpur, Lucknow, Bhopal, Jaipur, and Noida
+          </div>
 
           <input
             placeholder="Source"
