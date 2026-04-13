@@ -77,7 +77,7 @@ function App() {
 
       setTimeout(async () => {
         const res = await axios.post(
-          "http://localhost:5000/api/route/find",
+          "https://navlogic1.onrender.com",
           { source, destination, cities, edges }
         );
 
